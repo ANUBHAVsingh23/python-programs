@@ -1,0 +1,47 @@
+print("helloworld")
+age=21
+name="Anubhav"
+print(age)
+print(name)
+x=int(3)
+y=str(3)
+z=float(3)
+print(x)
+print(y)
+print(z)
+print(x,y,z)
+# camel case#
+myvarName=20
+print(myvarName)
+#Pascel case#
+MyVarName=20
+print(MyVarName)
+#snake case#
+my_var_name=20
+print(my_var_name)
+X=y=z="orange"
+print(x)
+print(y)
+print(z)
+x,y,z="orange","apple","kiwi"
+print(x)
+print(y)
+print(z)
+#unpack a list#
+fruits=["apple","banana","kiwi"]
+a,b,c= fruits
+print(a)
+print(b)
+print(c)
+print("Welcome to LPU")
+x="Welcome to LPU"
+print(x)
+x="python is"
+y="easy"
+z="to learn"
+print(x,y,z)
+
+num1=20
+num2=30
+res=num1+num2
+print(res)
