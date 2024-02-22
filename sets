@@ -1,0 +1,46 @@
+# sets = unordered, unchangeable, unindexed 
+# A set are used to store multiple items in a single variable
+# A set is a collection which is unordered, unchangeable, and inindexed
+# Sets items are unchangeable , but you can remove items and add new items
+set1=("apple","banana","cherry")
+print(set1)
+set1=("apple","banana","cherry", True, 1 ,2)
+print(set1)
+set1=("apple","banana","cherry")
+print(len(set1))
+set1=("apple","mango","guava")
+set2= (1,2,3)
+set3=(True,False,False)
+print(set1)
+print(set2)
+print(set3)
+# a set contains different data types:
+set1=("abc", 34, True,"male")
+print(set1)
+thisset={"apple","mango","guava"}
+tropical={"lily","sunflower","rose"}
+thisset.update(tropical)
+print(thisset)
+set1={"apple","mango","guava","banana"}
+set1.remove("banana")
+print(set1)
+set1={"apple","mango","guava"}
+set1.clear()
+print(set1)
+#union
+set1={"a","b","c"}
+set2={1,2,3}
+set1.update(set2)
+print(set1)
+x={"apple","mango","guava"}
+y={"lily","sunflower","rose","apple"}
+x.intersection_update(y)
+print(x)
+x={"apple","mango","guava"}
+y={"lily","sunflower","rose","apple"}
+x.symmetric_difference_update(y)
+print(x)
+x={"apple","mango","guava"}
+y={"lily","sunflower","rose","apple"}
+z= x.symmetric_difference(y)
+print(z)
