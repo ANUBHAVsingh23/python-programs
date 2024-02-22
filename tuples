@@ -1,0 +1,67 @@
+thistuple=("Rose","lily","sunflower")
+print(thistuple)
+#print the second item in the tuple
+tuple1=("rose","Lily","sunflower")
+print(tuple1[1])
+#print the second item in the tuple
+tuple1=("rose","Lily","sunflower")
+print(tuple1[0])
+#print the second item in the tuple
+tuple1=("rose","Lily","sunflower")
+print(tuple1[2])
+#print the second item in the tuple
+tuple1=("rose","Lily","sunflower")
+print(tuple1[-1])
+#RETURN THE THIRD ,fourth, and fifth item
+tuple2 =("apple","banana","guava","mango","kiwi","melon","cherry")
+print(tuple2[2:])
+#return the items from index-4(included) to index-1(excluded)
+tuple3=("apple","banana","guava","mango","kiwi","melon","cherry")
+print(tuple3[:4])
+tuple2 =("apple","banana","guava","mango","kiwi","melon","cherry")
+if "apple" in tuple2:
+    print("yes,Apple a day keep doctor away")
+    print("apple"in tuple2)
+#once a tuple is created, you cannot change its value.
+#tuples are unchangeable, or immutable as its is also is called
+x=("apple","banana","guava","mango","kiwi","melon","cherry")
+y= list(x)
+y[1]="pineapple"
+x= tuple(y)
+print(x)
+x=("apple","banana","guava","mango","kiwi","melon","cherry")
+y= list(x)
+y[0]="pineapple"
+x= tuple(y)
+print(x)
+    #convert the tuple into a list,add "orange" and convert its back into a tuple:
+tuple4=("apple","banana","guava","mango","kiwi","melon","cherry")
+y = list(tuple4)
+y.append("Orange")
+tuple4= tuple(y)
+print(tuple4)
+tuple5=("apple","banana","guava","mango","kiwi","melon","cherry")
+y=list(tuple5)
+y.remove("apple")
+tuple5=tuple(y)
+print(x)
+tuple6 =("apple","banana","guava","mango","kiwi","melon","cherry")
+print(tuple6)
+del tuple6
+print("tuple deteled")
+tuple7=("apple","banana","Cherry")
+for x in tuple7: 
+    print(x)
+tuple1=("a","b","c")
+tuple2=(1,2,3)
+tuple3 = tuple1+tuple2
+print(tuple3)
+tuple6 =("apple","banana","guava")
+mytuple= tuple6 *2
+print(mytuple)
+tuple1=(1,2,3,4,5,6,7,8)
+x = tuple1.count(5)
+print(x)
+tuple1=(1,2,3,4,5,6,7,5)
+x = tuple1.count(5)
+print(x)
