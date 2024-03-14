@@ -1,0 +1,16 @@
+#concatenation
+greeting = "Hello" + " " + text
+print(greeting)  # Output: Hello Hello, world!
+
+#string methods
+uppercased = text.upper()  # 'HELLO, WORLD!'
+lowercased = text.lower()  # 'hello, world!'
+is_upper = text.isupper()  # False
+is_lower = text.islower()  # False
+split_words = text.split()  # ['Hello,', 'world!']
+replaced = text.replace(",", " and")  # 'Hello and world!'
+print(text.upper())
+print(text.lower())
+print(text.isupper())
+print(text.islower())
+print(text.split())
