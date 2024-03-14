@@ -1,0 +1,21 @@
+student_result = {
+  "name": "Anubhav",
+  "marks": {
+    "Math": 95,
+    "Science": 90,
+    "English": 78
+  },
+  "total": None,  
+  "average": None 
+}
+
+student_result["total"] = sum(student_result["marks"].values())
+num_subjects = len(student_result["marks"])
+student_result["average"] = student_result["total"] / num_subjects
+
+print(f"Student Name: {student_result['name']}")
+print("Marks:")
+for subject, mark in student_result["marks"].items():
+  print(f"\t{subject}: {mark}")
+print(f"Total Marks: {student_result['total']}")
+print(f"Average Marks: {student_result['average']:.2f}")  # Format to 2 decimal places
