@@ -1,0 +1,25 @@
+
+fruits = {"apple", "banana", "orange", "mango"}  
+
+#  dictionary 
+student = {
+    "name": "Anubhav",
+    "age": 20,
+    "courses": ["Math", "Science", "English"]  
+}
+
+def calculate_average_grade(grades):
+  
+  if not grades:
+    return None
+  total = sum(grades)
+  average = total / len(grades)
+  return average
+
+grades = [95, 90, 78]
+average_grade = calculate_average_grade(grades)
+
+if average_grade:
+  print(f"{student['name']}'s average grade is: {average_grade:.2f}")  # Format to 2 decimal places
+print("Fruits:", fruits)
+print("Student information:", student)
